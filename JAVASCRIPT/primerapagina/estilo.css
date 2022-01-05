@@ -1,0 +1,326 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+
+
+}
+html body{
+    margin: 0%;
+    padding: 0%;
+}
+/*navegador*/
+body{ 
+    width: 100%;
+    height: 100%;
+    flex-wrap:wrap;
+    color: #333;
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    letter-spacing: 0.03em;
+    line-height: 1.6em;
+    margin: 0;
+    padding-bottom: 500px;
+    
+
+}
+body::-webkit-scrollbar{
+    width: 20px;
+    background: #ccc;
+}
+body::-webkit-scrollbar-thumb{
+
+    height: 30px;
+    background: rgb(0, 0, 0);
+    border-radius: 5px ; 
+}
+header{
+    background: #333;
+    color: white;
+    height: 50px;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+}
+header a { 
+    color: white;
+    text-decoration: none;
+    align-items: center;
+
+}
+.logo-nav-container{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigation ul li {
+   display: inline-block;
+}
+.navigation ul li a{
+    display: block;
+    padding: 0.5rem 1rem;
+ }
+ .navigation ul li a:hover{
+    background: #ccc;
+    transition: all 0.4s linear;
+
+ }
+.title{
+        text-align: center;
+        font-size: 40px;
+        color: #6a6a6a;
+        margin-top: 100px;
+        font-weight: 100;
+}
+p{
+margin-bottom: 1.6em;
+}
+/*cards inicio*/
+main .container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    min-width: none;
+}
+
+.container .card {
+    width: 330px;
+    height: 450px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 2px rgba(0,0,0.2);
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    float: left;
+}
+.container .card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0.2);
+}
+
+.container .card img{
+    width: 330px;
+    height: 220px;
+}
+
+.container .card h4{
+   font-weight: 600;
+}
+.container .card p{
+
+padding: 0 1rem;
+font-size: 16px;
+font-weight: 300;
+    
+
+}
+.container .card a {
+font-weight: 500;
+text-decoration: none;
+color: #3498db;
+}
+.container .card p a {
+font-weight: 500;
+text-decoration: none;
+color: white;
+}
+.container .card p a:hover{
+
+    text-decoration: underline;
+
+}
+/*Imagenes*/
+img{
+    float: left;
+    width: 85px;
+}
+/*FOOTERS */
+footer{
+    background: #4c4c4c;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    height: 300px;
+}
+footer h1 {
+margin: 50px;
+
+}
+.nomainfooter {
+    width: 100%;
+    height: 300px;
+    background: #4c4c4c;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+}
+.nomainfooter h1 {
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+/*cards sobremi */
+main .containers {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.containers .cardsobremi{
+    width: 600px;
+    height: 400px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 2px rgba(0,0,0.2);
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    float: left;
+    background: #4c4c4c;
+
+}
+.containers .cardsobremi p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+.containers .cardsobremi a {
+font-weight: 500;
+text-decoration: none;
+color: #3498db;
+}
+.containers .cardsobremi h4{
+    font-weight: 600;
+    color: white;
+    padding: 20px;
+ }
+.containers .cardsobremi:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0.2);
+}
+/*cards notas*/
+main .containernotas {
+    width: 100%;
+
+    height: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 15px;
+}
+.containernotas .card-Nota{
+    width: 330px;
+    height: 450px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 2px rgba(0,0,0.2);
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    float: left;
+    background: #4c4c4c;
+}
+.containernotas .card-Nota p{
+    padding: 0 1rem;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+}
+.containernotas .card-Nota a {
+font-weight: 500;
+text-decoration: none;
+color: white;
+}
+.containernotas .card-Nota h4{
+    font-weight: 600;
+    color: white;
+ }
+.containernotas .card-Nota:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0,0,0.2);
+}
+.containernotas .card-Nota img{
+    width: 330px;
+    height: 220px;
+}
+/*LOGO*/
+.logo{
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+    letter-spacing: 5px;
+    font-size: 1.2em;
+}
+.logo:hover{
+    transition: all 0.4s linear;
+    color: orange;
+    justify-content: center;
+}
+
+
+/*CARD SECCIÓN */
+.sectioncard {
+
+width: 100%;
+height: 800px;
+margin: 0%;
+justify-content: center;
+display: flex;
+
+
+}
+
+.sectioncard .card{
+    width:100%;
+    height: 400px;
+    flex-wrap: wrap;
+    box-shadow: 0 2px 2px rgba(0,0,0.2);
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 20px;
+    text-align: center;
+    transition: all 0.25s;
+    float: left;   
+    background: #4c4c4c;
+}
+.sectioncard .card h3{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 30px;
+  
+}
+
+.sectioncard .card img{
+
+    width: 100%;
+    height: 60%;
+    padding-bottom: 30px;
+  
+}
+
+.sectioncard .card p{
+    color: white;
+  
+}
+
+
